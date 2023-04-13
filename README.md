@@ -5,16 +5,19 @@ Ke Song, Quan Xia, Zhaoyong Qiu
 # Usage
 We run the code with torch version: 1.11.0+cu113, python version: 3.9.7
 ###  Train CIFAR100
-#### cd CIFAR
-#### python main.py
+##### cd DADD
+##### cd cifar
+##### python main.py
 ---
 ### Train Tiny-ImageNet
-#### cd Tiny-ImageNet
-#### python main_tiny.py
+##### cd DADD
+##### cd Tiny-ImageNet
+##### python main_tiny.py
 ---
 ### Train ImageNet-Subset
-#### cd ImageNet-Subset
-#### python main.py
+##### cd DADD
+##### cd ImageNet-Subset
+##### python main.py
 # Reference
 Our implementation references the codes in the following repositories:
 https://github.com/Impression2805/CVPR21_PASS  
