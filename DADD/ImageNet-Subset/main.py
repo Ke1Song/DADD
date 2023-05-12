@@ -28,6 +28,7 @@ parser.add_argument('--fg_nc', default=50, type=int, help='the number of classes
 parser.add_argument('--task_num', default=5, type=int, help='the number of incremental steps')
 parser.add_argument('--learning_rate', default=0.001, type=float, help='initial learning rate')
 parser.add_argument('--kd_weight', default=10.0, type=float, help='knowledge distillation loss weight')
+parser.add_argument('--semanAug_weight', default=10.0, type=float, help='knowledge distillation loss weight')
 parser.add_argument('--temp', default=0.1, type=float, help='trianing time temperature')
 parser.add_argument('--gpu', default='0', type=str, help='GPU id to use')
 parser.add_argument('--save_path', default='model_check_DADD/', type=str, help='save files directory')
